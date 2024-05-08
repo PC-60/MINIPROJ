@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .disease-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .disease-options button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .disease-form {
+    display: none;
+  }
+  
+  .disease-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .disease-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  #predict-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #prediction-result {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .disease-options button {
+      flex: 1;
+      margin-bottom: 10px;
+    }
+  }
